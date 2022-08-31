@@ -9,7 +9,6 @@ text_cleaning = pyd.Daisi("laiglejm/GPT 3 Text Cleaning")
 bib_refs = pyd.Daisi("laiglejm/GPT 3 Extract Bibliographical Refs")
 pdf_plumbing = pyd.Daisi("erichare/PDF Plumber")
 
-os.environ["OPENAI_KEY"] = "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"
 openai_api_key = os.environ["OPENAI_KEY"]
 
 def st_ui():
