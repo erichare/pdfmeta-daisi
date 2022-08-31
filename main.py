@@ -1,5 +1,6 @@
 import streamlit as st
 import pydaisi as pyd
+import pdfplumber
 import os
 import io
 
